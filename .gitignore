@@ -21,4 +21,4 @@ Thumbs.db
 
 # Additional project-specific files
 backendSetup.yaml
-frontend.yaml
+frontendSetup.yaml
