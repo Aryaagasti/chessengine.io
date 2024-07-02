@@ -6,9 +6,7 @@ const { Chess } = require("chess.js");
 const socket = require("socket.io");
 const path = require("path");
 
-dotenv.config({
-    path: './.env'
-});
+
 
 const app = express();
 const server = http.createServer(app);
@@ -101,10 +99,11 @@ io.on("connection", (uniquesocket) => {
     });
 });
 
-const port = process.env.PORT || 3000;
+const port = 8000;
 
 server.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
 
 module.exports = app;
