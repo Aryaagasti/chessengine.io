@@ -1,0 +1,24 @@
+# Node.js & NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Environment variables
+.env
+
+# Logs and Temp files
+*.log
+*.swp
+*~
+.tmp/
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Additional project-specific files
+backendSetup.yaml
+frontend.yaml
